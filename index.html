@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persnal Portfolio Website by Partha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f47a960a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>   
+                    <li><a href="#about">About</a></li>   
+                    <li><a href="#Myskills">MySkills</a></li>   
+                    <li><a href="#portfolio">Work</a></li>   
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fas fa-times" id = "cls" onclick="closemenu()"></i>  
+                </ul>
+                <i class="fas fa-bars" id ="hamb" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer </p>
+                <h1> Hi, I'm <span>Partha Pratim </span><br>Patra from India </h1>
+                
+            </div>
+            
+        </div>
+    </div>
+
+<!-- ===========================-------------- About --------------=====================  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> I am B.Tech (computer science engineering) under-grad student of Rcc Institute of Information Technology.Currently I am in 3rd year. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Web app Development</li>
+                            <li><span>Video Editor</span><br>Adobe Premier-pro, InShort, kinemaster - editing softwares.</li>
+                            <li><span>Photographer</span><br> Natural photographywith a particular thame.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Completed 10+2</span><br>Tutranga Anchal Siksha Niketan (H.S.)</li>
+                            <li><span>Currently in 3rd year, B.Tech (CSE) </span><br> Rcc Institute of Information Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- ==============================--------- MySkills -----------======================== -->
+<div id="Myskills">
+    <div class="container">
+        <h1 class="sub-title"> My skills </h1>
+        <div class="Myskills-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+             <h2> Web Development</h2>
+             <p> Passionate web developer with a flair for crafting immersive online experiences through clean code and creative design.</p>
+            <a href="#">Learn more</a>
+            </div>
+           <div>
+            <i class="fa-solid fa-crop-simple"></i>
+             <h2> Video Editing </h2>
+             <p> Detail-oriented video editor dedicated to transforming raw footage into compelling visual stories that captivate and engage audiences.</p>
+            <a href="#">Learn more</a>
+            </div>
+           <div>
+            <i class="fa-brands fa-app-store"></i>
+             <h2> Photography</h2>
+             <p> Capturing moments through a lens, my photography reflects the beauty of life in its most genuine and captivating forms.</p>
+            <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- ------------------- Portfolio ------------------- -->
+
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3> Calculator</h3>
+                    <p>The calculator is made by me, which is fully Working. you can click the link to see it. </p>
+                    <a href="https://parthapratimpatra.github.io/Codsoft_Task3/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3> Edited Video</h3>
+                    <p>One of the sample edited video is given below in the link. </p>
+                    <a href="https://www.youtube.com/shorts/RZDaxDh--Eo"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3> Captured Photos</h3>
+                    <p>The app connects you to the Talented people around the world. Download it from Play Store. </p>
+                    <a href="https://www.instagram.com/p/CvUO18ShwKh/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+  </div>
+  
+  <!-- -------------- Contact -----------------  -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> hello@reallygreatsite.com</p>
+                <p><i class="fa-solid fa-phone"></i> +123-456-7890</p>
+                <div class="social-icons">
+                     <a href="https://www.facebook.com/profile.php?id=100086483299730" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/theundecidedcreator/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                     <a href="https://www.linkedin.com/in/pppatra/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://twitter.com/parthapratim022" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+                <a href="images/my-cv.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email " required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Partha. Made with <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+    </div>
+  </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+     var sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+    </script>
+</body>
+</html>
